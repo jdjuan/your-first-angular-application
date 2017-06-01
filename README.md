@@ -1,27 +1,28 @@
-# Your First Angular Application
+# YourFirstAngularApplication
 
-## Setup 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
-### 1. Install Node, NPM and the Angular CLI
+## Development server
 
-- Uhe the latest version of [Node](https://nodejs.org/en/) or make sure you are using version `6.9.0` or above
-- Install NPM (It generally comes with Node, so no worries) 😙
-- Install Angular CLI globally: `$ npm install @angular/cli -g`
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### 2. Verify
+## Code scaffolding
 
-Make sure the installation went well by running:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
-- `$ node -v`
-- `$ npm -v`
-- `$ ng -v`
+## Build
 
-### 3. You are ready! Let's create an app
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-- Create a new application with: `$ ng new myProject` (it should take a few minutes) ⏰
-- Enter your application folder with: `$ cd myProject`
-- Serve your new application in the browser: `$ ng serve -o`
+## Running unit tests
 
-> If you see: "App Works", **you are done!** 🎉🎉🎉
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## You are ready to go to Branch #1
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
