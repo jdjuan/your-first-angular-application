@@ -1,26 +1,31 @@
 # Your First Angular Application
 
-## String interpolation
+## Component Creation
 
-Your application is running and working. Good 👌, now it's time to start making some changes:
+So we already applied String Interpolation to our application, now it's time to go a little more in deep. Let's start creating our own component 📦
 
-One cool feature of Angular is called **string interpolation**. It allows you to bind your variables to your template. So let's start:
+1. Let's open the terminal and navigate to your application folder
+2. Inside run the following command: `$ ng generate component myComponent`
+3. You will notice some output where it created 4 files and update one. Take a look at them.
 
-1. Go to your `app.component.ts` file.
-2. Find the `title` variable and replace its contents with something like: `"my application"`
-3. Save the file and check the result rendered automatically in the browser 👌👌👌
+A component(component.ts) is typically constituted of **styles (css), template (html) and tests(specs.ts).**
 
-Now let's do something more risky:
+The template holds something like this by default:
 
-4. Let's add another variable to your `app.component.ts` file called `author`. 
-5. Assign your name to it like this: `author = 'Juan Herrera';`
-6. Save the file and go to the browser and make sure everything is still working.
+```html
+<p>
+	my-component works!
+</p>
+```
 
-Everything is working but our new created variable is not showing up 😢
-Well we need to add it to your template 😅
+4. Now, let's open our component: `my-component.component.ts`
+5. Pay attention to the selector tag, it should be something like: `app-my-component`
 
-7. Go to the `app.component.html` file and add the following to your `h1` tag: `Welcome to {{title}} by {{author}}`
+> The `selector` is the tag you can use to render your component inside another template. 
 
-5. Go to the browser and make sure your name is there! 💕
+So now that we know our component tag we can use it inside our app component (the original component we worked on).
 
-## You are done, now go to [Branch #2](https://github.com/jdjuan/your-first-angular-application/tree/2)
+6. Go to `app.component.html` and add this next to the `h1` tags: `<app-my-component></app-my-component>`
+7. Check your app in the browser! 💕
+
+## You are done, now go to [Branch #3](https://github.com/jdjuan/your-first-angular-application/tree/2)
