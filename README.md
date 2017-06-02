@@ -8,7 +8,7 @@ So we already applied String Interpolation to our application, now it's time to 
 2. Inside run the following command: `$ ng generate component myComponent`
 3. You will notice some output where it created 4 files and update one. Take a look at them.
 
-![Output](Output.png)
+![Output](output.png)
 
 **A component(component.ts) is typically constituted of styles (css), template (html) and tests(specs.ts).**
 
