@@ -1,23 +1,29 @@
 # Your First Angular Application
 
-## Event binding
+## Property binding
 
-Event binding allows us to attach events to elements or components e.g. Click, Keyup, among others ✌️
+Property binding allows us to set a property to our elements or components ✌️
 
-Let's start attaching our first event:
+Let's start using it 🤡:
 
-1. Go to `app.component.html` and erase all the content except for own component `app-my-component`.
-2. Now let's create a button: `<button>Click me</button>` and verify in the browser 👌
+1. Go to `app.component.html` and create an **img** tag like this: `<img>`
 
-3. Go to your `app.component.ts` file and create a new variable called **count** and initialized on **0**: `count = 0;`
-3. Well, here is your first mission: Use **String Interpolation** to render our new variable. 🤡 Let the game begin.. 🤡
+2. No image should be rendered because we are missing the `src` attribute. Instead of adding it directly, let's using property binding!
 
-You ready? Cool! I knew you could! 💪
+3. Go to your `app.component.ts` file and create a variable called **imageSource** and assing the content like this: `imgSource = './../favicon.ico';`
 
-4. It's time to attach our event, go to our button and update it accordingly: `<button (click)="count = count + 1" >Click me</button>`
+4. The final step is update our img tag like this: `<img [src]="imgSource">`
 
-5. Go to the browser and test it!
+Did it work!? Coool 💪
 
-6. Did it work? Was it easy? Cooool! 🎉🎉🎉
+**Your mission:** Let's create an `input` tag and enable ir or disable it through the clicking of a button.
 
-## You are done, now go to [Branch #4](https://github.com/jdjuan/your-first-angular-application/tree/3)
+Tips:
+
+1. Don't forget you need a variable to make this work, I would call it: `enabled`
+2. Use the `[disabled]` property
+3. Use the `click` event binding to change the variable!
+
+Good Luck! 🤡🤡🤡 and thank you for your time!
+
+![Once there was a repository and you gave it a star](https://i.imgflip.com/1q7vwr.jpg)
