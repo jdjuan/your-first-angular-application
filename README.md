@@ -20,4 +20,4 @@ You ready? Cool! I knew you could! 💪
 
 6. Did it work? Was it easy? Cooool! 🎉🎉🎉
 
-## You are done, now go to [Branch #4](https://github.com/jdjuan/your-first-angular-application/tree/3)
+## You are done, now go to [Branch #4](https://github.com/jdjuan/your-first-angular-application/tree/4)
