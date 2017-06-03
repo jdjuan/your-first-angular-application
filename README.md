@@ -1,27 +1,23 @@
 # Your First Angular Application
 
-## Component Creation
+## Event binding
 
-So we already applied String Interpolation to our application, now it's time to go a little more in deep. Let's start creating our own component 📦
+Event binding allows us to attach events to elements or components e.g. Click, Keyup, among others ✌️
 
-1. Let's open the terminal and navigate to your application folder
-2. Inside run the following command: `$ ng generate component myComponent`
-3. You will notice some output where it created 4 files and update one. Take a look at them.
+Let's start attaching our first event:
 
-![Output](output.png)
+1. Go to `app.component.html` and erase all the content except for own component `app-my-component`.
+2. Now let's create a button: `<button>Click me</button>` and verify in the browser 👌
 
-**A component(component.ts) is typically constituted of styles (css), template (html) and tests(specs.ts).**
+3. Go to your `app.component.ts` file and create a new variable called **count** and initialized on **0**: `count = 0;`
+3. Well, here is your first mission: Use **String Interpolation** to render our new variable. 🤡 Let the game begin.. 🤡
 
-The **template** holds something like this by default: `<p>my-component works!</p>`
+You ready? Cool! I knew you could! 💪
 
-4. Now, let's open our component: `my-component.component.ts`
-5. Pay attention to the selector tag, it should be something like: `app-my-component`
+4. It's time to attach our event, go to our button and update it accordingly: `<button (click)="count = count + 1" >Click me</button>`
 
-> The `selector` is the tag you can use to render your component inside another template. 
+5. Go to the browser and test it!
 
-So now that we know our component tag we can use it inside our app component (**the original component we worked on**).
+6. Did it work? Was it easy? Cooool! 🎉🎉🎉
 
-6. Go to `app.component.html` and add this next to the `h1` tags: `<app-my-component></app-my-component>`
-7. Check your app in the browser! 💕
-
-## You are done, now go to [Branch #3](https://github.com/jdjuan/your-first-angular-application/tree/3)
+## You are done, now go to [Branch #4](https://github.com/jdjuan/your-first-angular-application/tree/3)
