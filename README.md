@@ -1,6 +1,6 @@
 # Your First Angular Application
 
-## Component Creation
+## 2. Component Creation
 
 So we already applied String Interpolation to our application, now it's time to go a little more in deep. Let's start creating our own component 📦
 
