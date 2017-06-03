@@ -1,6 +1,6 @@
 # Your First Angular Application
 
-## Event binding
+## 3. Event binding
 
 Event binding allows us to attach events to elements or components e.g. Click, Keyup, among others ✌️
 
