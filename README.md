@@ -1,6 +1,6 @@
 # Your First Angular Application
 
-## String interpolation
+## 1. String interpolation
 
 Your application is running and working. Good 👌, now it's time to start making some changes:
 
