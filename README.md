@@ -2,25 +2,25 @@
 
 ## 1. String interpolation
 
-Your application is running and working. Good 👌, now it's time to start making some changes:
+Your application should be already running and working 👌. Now it's time to start making some changes:
 
 One cool feature of Angular is called **string interpolation**. It allows you to bind your variables to your template. So let's start:
 
-1. Go to your `app.component.ts` file.
-2. Find the `title` variable and replace its contents with something like: `"my application"`
-3. Save the file and check the result rendered automatically in the browser 👌👌👌
+1. Go to your `app.component.html` file and replace **all its content** with: `<h1>This is cool! 😃</h1>`
+2. Save the file and check the results. It should work straight away!
+3. Now, go to `app.component.ts` and find the `name` variable
+4. Replace its contents with something like: `'Juan'`
+5. Finally go back to `app.component.html` and add this:
 
-Now let's do something more risky:
+```html
+<h1>This is cool! 😃</h1>
+<h2>My name is {{ name }} </h2>
+```
 
-4. Let's add another variable to your `app.component.ts` file called `author`.
-5. Assign your name to it like this: `author = 'Juan Herrera';`
-6. Save the file and go to the browser and make sure everything is still working.
+8. Save the file and check the result rendered automatically in the browser 👌👌👌
 
-Everything IS working BUT our new created variable is not showing up 😢
-Well, we need to add it to your template 😅
+Make sure your name is there! 💕 Try with more variables!
 
-7. Go to the `app.component.html` file and add the following to your `h1` tag: `Welcome to {{title}} by {{author}}`
-
-8. Check the results and make sure your name is there! 💕
+![results](result.png)
 
 ## You are done, now go to [Branch #2](https://github.com/jdjuan/your-first-angular-application/tree/2#your-first-angular-application)
