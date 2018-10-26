@@ -1,28 +1,29 @@
 # Your First Angular Application
 
-## 1. Install Node, NPM and the Angular CLI
+## 1. Open [Stackblitz.com](https://stackblitz.com/)
 
-- Use the latest version of [Node](https://nodejs.org/en/) or make sure you are using version `6.9.0` or above
-- Install NPM (It generally comes with Node, so no worries) 😙
-- Install Angular CLI globally
-	- `$ npm install @angular/cli -g`
+[Stackblitz](https://stackblitz.com/) is a platform that allows you to run different applications using **just your browser**.
 
-## 2. Verify
+- ⭐️ You no longer need to install Node, NPM, Yarn or anything!
+- ⭐️ Stackblitz is fully supported by Google
+- ⭐️ It's even faster than your own terminal
 
-Make sure the installation went well by running:
+You should see something like this:
 
-- `$ node -v` -> Version 6.9.0 or above
-- `$ npm -v` -> Version 3.0.0 or above
-- `$ ng -v`-> Version 1.0.0 or above
+![Stackblitz](stackblitz.png)
 
-## 3. You are ready! Let's create an app
+## 2. Select Angular
 
-- Create a new application with: 
-	- `$ ng new myProject` (it should take a few minutes) ⏰
-- Enter your application folder with: 
-	- `$ cd myProject`
-- Serve your new application in the browser: 
-	- `$ ng serve -o`
-- If you see: "App Works", **you are done!** 🎉🎉🎉
+In Stackblitz you can create different kind of projects. In our case we will use Angular.
+
+- Its interface is very similiar to Visual Studio Code
+- It has the Angular CLI (an scaffolder) already setup, so you can generate files with just 2 clicks!
+
+![explained](explained.png)
+
+## 3. You are ready! Let's start
+
+- Jump from branch to branch to perform the different exercises. ⏰
+- If you are interested in carrying out the exercises in your local environment, take a look at this [documentation](https://angular.io/guide/quickstart)
 
 # You are ready to go to [Branch #1](https://github.com/jdjuan/your-first-angular-application/tree/1)
