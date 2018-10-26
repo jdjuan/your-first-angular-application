@@ -4,11 +4,28 @@
 
 So we already applied String Interpolation to our application, now it's time to go a little more in deep. Let's start creating our own component 📦
 
+---
+<details>
+  <summary>If you are using Node</summary>
+  
 1. Let's open the terminal and navigate to your application folder
 2. Inside run the following command: `$ ng generate component myComponent`
 3. You will notice some output where it created 4 files and update one. Take a look at them.
 
 ![Output](output.png)
+</details>
+
+<details>
+  <summary>If you are using Stackblitz</summary>
+  
+1. Right click in the `app` folder
+2. Select `Angular Generator`
+3. And then click `component`. Name it whatever you want. For example: `myComponent`
+
+![stackblitz](stackblitz.png)
+</details>
+
+---
 
 **A component(component.ts) is typically constituted of styles (css), template (html) and tests(specs.ts).**
 
