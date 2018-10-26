@@ -14,7 +14,7 @@ You should see something like this:
 
 ## 2. Select Angular
 
-In Stackblitz you can create different kind of projects. In our case we will use Angular.
+In Stackblitz you can create different kind of projects. In our case we will use Angular:
 
 - Its interface is very similiar to Visual Studio Code
 - It has the Angular CLI (an scaffolder) already setup, so you can generate files with just 2 clicks!
@@ -23,7 +23,7 @@ In Stackblitz you can create different kind of projects. In our case we will use
 
 ## 3. You are ready! Let's start
 
-- Jump from branch to branch to perform the different exercises. ⏰
+- Jump from branch to branch to perform the different exercises ⏰
 - If you are interested in carrying out the exercises in your local environment, take a look at this [documentation](https://angular.io/guide/quickstart)
 
 # You are ready to go to [Branch #1](https://github.com/jdjuan/your-first-angular-application/tree/1#your-first-angular-application)
