@@ -26,7 +26,7 @@ Create an `input` tag and enable it or disable it through the clicking of a butt
 
 ### Tips:
 
-1. Don't forget you need a variable to make this work, I would call it: `enabled`
+1. Don't forget you need a variable to make this work, I would call it: `disabled`
 2. Use the `[disabled]` property of the `input` element
 3. Use the `click` event binding to change the variable!
 
