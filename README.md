@@ -26,4 +26,4 @@ In Stackblitz you can create different kind of projects. In our case we will use
 - Jump from branch to branch to perform the different exercises. ⏰
 - If you are interested in carrying out the exercises in your local environment, take a look at this [documentation](https://angular.io/guide/quickstart)
 
-# You are ready to go to [Branch #1](https://github.com/jdjuan/your-first-angular-application/tree/1)
+# You are ready to go to [Branch #1](https://github.com/jdjuan/your-first-angular-application/tree/1#your-first-angular-application)
