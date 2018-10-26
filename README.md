@@ -12,15 +12,15 @@ One cool feature of Angular is called **string interpolation**. It allows you to
 
 Now let's do something more risky:
 
-4. Let's add another variable to your `app.component.ts` file called `author`. 
+4. Let's add another variable to your `app.component.ts` file called `author`.
 5. Assign your name to it like this: `author = 'Juan Herrera';`
 6. Save the file and go to the browser and make sure everything is still working.
 
-Everything is working but our new created variable is not showing up 😢
-Well we need to add it to your template 😅
+Everything IS working BUT our new created variable is not showing up 😢
+Well, we need to add it to your template 😅
 
 7. Go to the `app.component.html` file and add the following to your `h1` tag: `Welcome to {{title}} by {{author}}`
 
-5. Go to the browser and make sure your name is there! 💕
+8. Check the results and make sure your name is there! 💕
 
-## You are done, now go to [Branch #2](https://github.com/jdjuan/your-first-angular-application/tree/2)
+## You are done, now go to [Branch #2](https://github.com/jdjuan/your-first-angular-application/tree/2#your-first-angular-application)
