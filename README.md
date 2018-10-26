@@ -1,31 +1,56 @@
 # Your First Angular Application
 
-## 4. Property binding
+## 4. Component Creation
 
-Property binding allows us to set a property to our elements or components ✌️
+So we already applied a lot of concepts to our application, now it's time to go a little more in depth. Let's start creating our own component 📦.
 
-Let's start using it 🤡:
+In Stackblitz:
 
-1. Go to `app.component.html` and create an **img** tag like this: `<img>`
+1. Right click in the `app` folder
+2. Select `Angular Generator`
+3. And then click `component`. Name it whatever you want. For example: `counter`
 
-2. No image should be rendered because we are missing the `src` attribute. Instead of adding it directly, let's start using property binding!
+![stackblitz](gen.png)
 
-3. Go to your `app.component.ts` file and create a variable called **imageSource** and assing the content like this: `imgSource = './../favicon.ico';`
+A component is generally composed of:
 
-4. The final step is update our img tag like this: `<img [src]="imgSource">`
+- 🔧 **Component:** `counter.component.ts`
+- 🎨 **Styles:** `counter.component.css`
+- 📱 **Template:** `counter.component.html`
+- 📋 **Tests:** `counter.component.specs.ts`
 
-Did it work!? Coool 💪 That's it! It's simple 😁
+> A component is a way to have a more maintanable application (i.e. this is very useful when you are app grows).
 
-## Your mission
+The **template** holds something like this by default:
 
-Create an `input` tag and enable it or disable it through the clicking of a button.
+```html
+<p>counter works!</p>
+```
 
-### Tips:
+1. Now, let's open our component: `counter.component.ts`
+2. Pay attention to the selector tag, it should be something like: `app-counter`
 
-1. Don't forget you need a variable to make this work, I would call it: `enabled`
-2. Use the `[disabled]` property
-3. Use the `click` event binding to change the variable!
+> The `selector` is the tag you can use to render your component inside another template.
 
-Good Luck! 🤡🤡🤡 and thank you for your time!
+So now that we know our component tag we can use it inside our app component (**the original component we worked on**).
+
+1. Go to `app.component.html` and add this at the bottom: `<app-counter></app-counter>`
+2. Check your app in the browser! 💕
+3. If you see at the bottom the **counter** component redenderd, then you nailed it! 💪
+
+## Your mission! ⏳
+
+Move the logic, the template, and the styles from the **app component** to the **counter component**.
+
+### Tips 👇
+
+1. The application should remain working
+2. Migrate everything except the `<app-counter></app-counter>` tag, it is necessary to render the **counter** component
+
+## You are done! 👏
+
+You have created a super maintanable application! 👏👏👏
+
+This is it! Thanks for holding on! See you soon!
 
 ![Once there was a repository and you gave it a star](https://i.imgflip.com/1q7vwr.jpg)
